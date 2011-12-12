@@ -1,12 +1,21 @@
-/**
- * tito 0.1
- * 
- * tito is a jQuery plugin for making labels on inputs similar to their
- * default values, with nice fade in/out transition effect
- * 
- * @author		Szymon Stepniak <simons@ifdesign.pl>
- * @version		0.1
- * @license		MIT (http://www.opensource.org/licenses/mit-license.php)
- * @released	2011-12-12
- *
- */
+tito 0.1
+
+tito is a jQuery plugin for making labels on inputs similar to their
+default values, with nice fade in/out transition effect
+
+@author		Szymon Stepniak <simons@ifdesign.pl>
+@version		0.1
+@license		MIT (http://www.opensource.org/licenses/mit-license.php)
+@released	2011-12-12
+
+
+Use example:
+
+// Init tito with default values
+$("input").tito();
+
+// Init tito with user defined additional top and left offset values
+$("input").tito({
+	top: 5,
+	left: 20
+});
